@@ -30,6 +30,10 @@ body::-webkit-scrollbar-thumb {
   border-radius: 20px;
   
   }
+  html{
+    scroll-behavior: smooth;
+  
+  }
 
 header{
   border-bottom: solid 1px #fff;
@@ -70,6 +74,7 @@ font-size: 35px;
   justify-content: space-around;
   
 }
+
 .apresentacao{
   width: auto;
   
@@ -78,6 +83,28 @@ font-size: 35px;
   display: flex;
   justify-content:start;
   font-size: 60px;
+}
+.curriculo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.curriculo a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border: solid white 3px;
+  padding-top: 10px;
+  padding-bottom:  10px;
+  border-radius: 10px;
+  text-decoration: none;
+  background: linear-gradient(45deg, black, #040027);
+  transition: 1s;
+}
+.curriculo a:hover{
+  transform: scale(0.9,0.9);
+  transition: 1s;
 }
 .fotop{
   width: auto;
@@ -100,9 +127,10 @@ font-size: 35px;
   width: 70%;
   margin: auto;
   height: 600px;
-  padding-top: 100px;
+  padding-top: 250px;
   
 }
+
 .sobremimtitulo{
   display: flex;
   align-items: center;
@@ -120,6 +148,7 @@ font-size: 35px;
   width: 80%;
   height: 1400px;
   margin: auto;
+  padding-top: 250px;
 }
 .habilidadestitulo{
   font-size: 35px;
