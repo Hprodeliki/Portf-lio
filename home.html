@@ -10,24 +10,30 @@
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;600;700&display=swap" rel="stylesheet">
 
 </head>
-<body>
-  <header>
-    <div class="nome_logo"><a>Henrique Prodeliki</a></div>
-    <div class="menu">
-      <a href="#sobremim">Sobre mim</a>
-      <a href="#habilidades">Habilidades</a>
-      <a href="">Projetos</a>
-      <a href="">Contato</a>
-    </div>
+<body >
+  <header class="header">
+    <nav class="nav">
+      <div class="logo" ><a href="#home">Henrique Prodeliki</a></div>
+      <button class="hamburguer"></button>
+      <ul class="nav-list">
+        <li> <a href="#sobremim">Sobre mim</a></li>
+        <li> <a href="#habilidades"> Habilidades</a></li>
+        <li> <a href="#projetos"> Projetos</a></li>
+        <li> <a href="#contato"> Contato</a></li>
+      </ul>
+    </nav>
+    
+  
   </header>
+
   <div class="op"></div>
-  <main class="main1">
+  <main class="main1" id="home" >
     <div class="apresentacao">
       <p>Olá, sou o </p>
-      <p><strong>Henrique Prodeliki</strong></p>
+      <p><strong>HENRIQUE PRODELIKI</strong></p>
       <p>Desenvolvedor Web</p>
       <div class="curriculo">
-        <a href="">Baixar CV</a>
+        <a href="downloads/DOC-20231024-WA0016._compressed-2 (1).pdf" download="Curriculo.Henrique.Prodeliki">Baixar CV </a>
       </div>
     </div>
     <div class="fotop">
@@ -65,9 +71,52 @@
       <p>MySQL</p>
       <img src="imagens/62debc4fff3c6e4b8b5de8d3.png" alt="">
      </div>
-     
+     <!-- Pode-se colocar mais quadros seguindo esse padrão -->
     </div>
   </section>
+    <section class="containerprojetos" id="projetos">
+      <div class="tituloprojetos"> 
+        <h1>Projetos</h1>
+      </div>
+      <div class="divboxprojetos">
+        <div class="box_projetos"><img src="imagens/Home.png" alt=""></div>
+        <div class="box_projetos"><img src="imagens/Home.png" alt=""></div>
+        <div class="box_projetos"><img src="imagens/Home.png" alt=""></div>
+        <div class="box_projetos"><img src="imagens/Home.png" alt=""></div>
+        <div class="box_projetos"><img src="imagens/Home.png" alt=""></div>
+        <div class="box_projetos"><img src="imagens/Home.png" alt=""></div>
+        <div class="box_projetos"><img src="imagens/Home.png" alt=""></div>
+        <div class="box_projetos"><img src="imagens/Home.png" alt=""></div>
+        <div class="box_projetos"><img src="imagens/Home.png" alt=""></div>
+      </div>
+    </section>
+    <footer id="contato">
+      <div class="titulocontato">
+        <h1>Contato</h1>
+      </div>
+      <div class="redessociais">
+        <div class="github">
+          <img src="imagens/github_733553.png" alt="">
+          <p>Hprodeliki</p>
+        </div>
+        <div class="telefone">
+          <img src="imagens/telephone_724664.png" alt="">
+          <p>+55 041 99682-2757</p>
+        </div>
+        <div class="email">
+          <img src="imagens/mail_9068642.png" alt="">
+          <p>henriqueprodeliki1@gmail.com</p>
+        </div>
+        <div class="linkedin">
+          <img src="imagens/linkedin_145807.png" alt="">
+          <p>Henrique Prodeliki</p>
+        </div>
+      </div>
+    </footer>
+    <button class="oi" id="subir">
+        <img src="imagens/25637.png" alt="">
+    </button>
     
+    <script src="script.js"></script>
   </body>
  
