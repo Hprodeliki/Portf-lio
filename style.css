@@ -336,6 +336,7 @@ footer{
 }
 .redessociais img{
   width: 90px;
+  cursor: pointer;
 }
 .redessociais div{
   position: relative;
